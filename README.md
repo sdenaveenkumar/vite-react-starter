@@ -119,7 +119,7 @@ npx degit sdenaveenkumar/vite-react-starter my-app
 ```text
   ┌────────────────────────────────────────────────────────────┐
   │                                                            │
-  │   ⚡ SDENAVEENKUMAR REACT STARTER v2.1.2                    │
+  │   ⚡ SDENAVEENKUMAR REACT STARTER v2.1.3                    │
   │   React 19 • Vite 8 • Tailwind CSS v4 • ESLint             │
   │                                                            │
   └────────────────────────────────────────────────────────────┘
