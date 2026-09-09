@@ -1,6 +1,6 @@
 # ⚡ Vite React Starter
 
-A modern, high-performance starter template powered by **React 19**, **Vite 8**, and **Tailwind CSS v4**. Includes built-in dark/light mode toggling, Lucide icons, and an interactive quote widget.
+A modern, high-performance starter template powered by **React 19**, **Vite 8**, and **Tailwind CSS v4**. Includes built-in dark/light mode toggling, Lucide icons, ESLint 9 Flat Config, and an interactive quote widget.
 
 ---
 
@@ -89,7 +89,7 @@ Your app will be live at: **[http://localhost:5173](http://localhost:5173)**
 - 🌓 **Dark / Light Theme** – Smooth animated theme switching with custom gradient backgrounds and grid patterns.
 - 💬 **Live Quote Widget** – Dynamic quote generator fetched asynchronously from DummyJSON with fallback handling.
 - 💎 **Lucide Icons** – Clean, modern, customizable SVG icon set.
-- 🚀 **Oxlint** – Ultra-fast JavaScript/React linter pre-configured.
+- 🔍 **ESLint 9** – Modern Flat Config with React Hooks & React Refresh rules.
 
 ---
 
@@ -101,7 +101,7 @@ Your app will be live at: **[http://localhost:5173](http://localhost:5173)**
 | [Vite](https://vite.dev/) | `^8.2.0` | Next-generation frontend build tool |
 | [Tailwind CSS](https://tailwindcss.com/) | `^4.0.0` | Utility-first CSS framework |
 | [Lucide React](https://lucide.dev/) | `^0.475.0` | Icon set for modern web apps |
-| [Oxlint](https://oxc.rs/) | `^1.75.0` | High-performance linter |
+| [ESLint](https://eslint.org/) | `^9.21.0` | Standard JavaScript & React linter (Flat Config) |
 
 ---
 
@@ -114,7 +114,7 @@ Your app will be live at: **[http://localhost:5173](http://localhost:5173)**
 │   ├── App.jsx          # Main application dashboard component
 │   ├── index.css        # Tailwind CSS v4 import directive
 │   └── main.jsx         # React application entry point
-├── .oxlintrc.json       # Oxlint configuration
+├── eslint.config.js     # ESLint Flat Configuration
 ├── index.html           # HTML entry point
 ├── package.json         # Scripts and project dependencies
 ├── vite.config.js       # Vite configuration with React & Tailwind plugins
@@ -130,7 +130,7 @@ Your app will be live at: **[http://localhost:5173](http://localhost:5173)**
 | `dev` | `npm run dev` | Starts the Vite development server with HMR |
 | `build` | `npm run build` | Compiles and optimizes assets for production into `dist/` |
 | `preview` | `npm run preview` | Locally previews the production build |
-| `lint` | `npm run lint` | Runs Oxlint to check code quality |
+| `lint` | `npm run lint` | Runs ESLint checks across the codebase |
 
 ---
 
