@@ -13,12 +13,12 @@
 <br />
 
 <p align="center">
-  <a href="#-quick-start"><b>Quick Start</b></a> •
+  <a href="#-quick-start-scaffold-in-seconds"><b>Quick Start</b></a> •
   <a href="#-typescript-support"><b>TypeScript</b></a> •
   <a href="#-key-features"><b>Key Features</b></a> •
-  <a href="#-tech-stack"><b>Tech Stack</b></a> •
-  <a href="#-project-structure"><b>Structure</b></a> •
-  <a href="#-deploying-to-production"><b>Deploying</b></a> •
+  <a href="#-the-modern-tech-stack"><b>Tech Stack</b></a> •
+  <a href="#-scaffolded-project-structure"><b>Structure</b></a> •
+  <a href="#-available-scripts"><b>Scripts</b></a> •
   <a href="#-license"><b>License</b></a>
 </p>
 
@@ -243,37 +243,6 @@ Inside your project folder, you can run:
 | `npm run build` | Compiles optimized, minified production bundle into `dist/` |
 | `npm run preview` | Spins up a local static server to preview the `dist/` build |
 | `npm run lint` | Runs ESLint checks across all project files |
-
-</details>
-
----
-
-## 🚀 Deploying to Production
-
-<details>
-<summary><b>▲ Deploy to Vercel</b></summary>
-
-1. Push your repository to GitHub.
-2. Import your repository into [Vercel](https://vercel.com).
-3. Vercel will automatically detect **Vite** with Build Command `npm run build` and Output Directory `dist`.
-4. Click **Deploy**.
-
-</details>
-
-<details>
-<summary><b>🌐 Deploy to Netlify</b></summary>
-
-1. Connect your repository on [Netlify](https://netlify.com).
-2. Set **Build command**: `npm run build`
-3. Set **Publish directory**: `dist`
-4. Click **Deploy Site**.
-
-</details>
-
-<details>
-<summary><b>🐙 Deploy to GitHub Pages</b></summary>
-
-Set `base: '/<REPO_NAME>/'` in `vite.config.js` and deploy using GitHub Actions with `actions/upload-pages-artifact`.
 
 </details>
 
