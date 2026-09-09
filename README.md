@@ -114,12 +114,12 @@ npx degit sdenaveenkumar/vite-react-starter my-app
 ## 🖥️ Live Terminal Scaffolding Demo
 
 ```text
-  ┌────────────────────────────────────────────────────────────┐
-  │                                                            │
-  │   ⚡ SDENAVEENKUMAR REACT STARTER v1.9.0                    │
-  │   React 19 • Vite 8 • Tailwind CSS v4 • ESLint             │
-  │                                                            │
-  └────────────────────────────────────────────────────────────┘
+  ┌────────────────────────────────────────────────────────────┐       d[ ⌐■_■ ]b
+  │                                                            │       (   ‿   )  ☕
+  │   ⚡ SDENAVEENKUMAR REACT STARTER v2.1.0                    │      /|  ⚡  |\ 💻
+  │   React 19 • Vite 8 • Tailwind CSS v4 • ESLint             │     ( |_===_| )
+  │                                                            │      |  |  |
+  └────────────────────────────────────────────────────────────┘      '--' '--'
 
   ┌  Scaffolding my-app [JavaScript]
   │
