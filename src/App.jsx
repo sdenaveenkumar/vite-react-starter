@@ -34,7 +34,24 @@ export default function App() {
   };
 
   useEffect(() => {
-    fetchQuote();
+    let ignore = false;
+    async function initQuote() {
+      try {
+        const response = await fetch('https://dummyjson.com/quotes/random');
+        const data = await response.json();
+        if (!ignore) {
+          setQuote({ text: data.quote, author: data.author });
+        }
+      } catch {
+        if (!ignore) {
+          setQuote({ text: "Simplicity is the soul of efficiency.", author: "Austin Freeman" });
+        }
+      }
+    }
+    initQuote();
+    return () => {
+      ignore = true;
+    };
   }, []);
 
   const stack = [
