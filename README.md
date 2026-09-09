@@ -114,13 +114,11 @@ npx degit sdenaveenkumar/vite-react-starter my-app
 ## 🖥️ Live Terminal Scaffolding Demo
 
 ```text
-  ✨ Ƹ̵̡Ӝ̵̨̄Ʒ  (Flying Butterfly Animation)
-
-  ┌────────────────────────────────────────────────────────────┐       Ƹ̵̡Ӝ̵̨̄Ʒ ✨
-  │                                                            │         ·
-  │   ⚡ SDENAVEENKUMAR REACT STARTER v2.1.0                    │       ƸӜƷ ✧
-  │   React 19 • Vite 8 • Tailwind CSS v4 • ESLint             │         ·
-  │                                                            │       Ƹ̵̡Ӝ̵̨̄Ʒ ⋆
+  ┌────────────────────────────────────────────────────────────┐
+  │                                                            │
+  │   ⚡ SDENAVEENKUMAR REACT STARTER v2.1.1                    │
+  │   React 19 • Vite 8 • Tailwind CSS v4 • ESLint             │
+  │                                                            │
   └────────────────────────────────────────────────────────────┘
 
   ┌  Scaffolding my-app [JavaScript]
