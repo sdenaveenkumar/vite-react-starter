@@ -1,6 +1,6 @@
 # ⚡ Vite React Starter
 
-A modern, high-performance starter template powered by **React 19**, **Vite 8**, and **Tailwind CSS v4**. Includes built-in dark/light mode toggling, Lucide icons, ESLint 9 Flat Config, and an interactive quote widget.
+A modern, high-performance starter template powered by **React 19**, **Vite 8**, and **Tailwind CSS v4**. Includes built-in dark/light mode toggling, Lucide icons, ESLint 10 Flat Config, pre-configured `cn()` class merge utility, and VS Code settings.
 
 ---
 
@@ -73,23 +73,24 @@ bun create @sdenaveenkumar/react my-app
 
 ```bash
 cd my-app
-npm install
 npm run dev
 ```
 
-Your app will be live at: **[http://localhost:5173](http://localhost:5173)**
+Your app will open automatically at: **[http://localhost:5173](http://localhost:5173)**
 
 ---
 
 ## ✨ Features
 
-- ⚡ **Vite 8** – Lightning-fast Hot Module Replacement (HMR) and instant cold starts.
-- ⚛️ **React 19** – Powered by the latest React features and optimizations.
+- ⚡ **Vite 8** – Lightning-fast Hot Module Replacement (HMR) and instant cold starts with browser auto-opening.
+- ⚛️ **React 19** – Powered by the latest React features and compiler optimizations.
 - 🎨 **Tailwind CSS v4** – Zero-configuration styling using `@tailwindcss/vite`.
+- 🧩 **`cn()` Utility Helper** – Pre-configured `clsx` and `tailwind-merge` helper for clean dynamic classes.
 - 🌓 **Dark / Light Theme** – Smooth animated theme switching with custom gradient backgrounds and grid patterns.
 - 💬 **Live Quote Widget** – Dynamic quote generator fetched asynchronously from DummyJSON with fallback handling.
 - 💎 **Lucide Icons** – Clean, modern, customizable SVG icon set.
-- 🔍 **ESLint 9** – Modern Flat Config with React Hooks & React Refresh rules.
+- 🔍 **ESLint 10** – Modern Flat Config with React Hooks & React Refresh rules.
+- 🛠️ **VS Code Ready** – Pre-configured extension recommendations and format-on-save settings.
 
 ---
 
@@ -101,16 +102,20 @@ Your app will be live at: **[http://localhost:5173](http://localhost:5173)**
 | [Vite](https://vite.dev/) | `^8.2.0` | Next-generation frontend build tool |
 | [Tailwind CSS](https://tailwindcss.com/) | `^4.0.0` | Utility-first CSS framework |
 | [Lucide React](https://lucide.dev/) | `^0.475.0` | Icon set for modern web apps |
-| [ESLint](https://eslint.org/) | `^9.21.0` | Standard JavaScript & React linter (Flat Config) |
+| [ESLint](https://eslint.org/) | `^10.0.0` | Standard JavaScript & React linter (Flat Config) |
+| [clsx](https://github.com/lukeed/clsx) & [tailwind-merge](https://github.com/dcastil/tailwind-merge) | `^2.1.1` / `^3.0.1` | Class name combination utilities |
 
 ---
 
 ## 📁 Project Structure
 
 ```text
-├── public/              # Static assets
+├── .vscode/             # VS Code extension recommendations & editor settings
+├── public/              # Static assets (favicon.svg)
 ├── src/
 │   ├── assets/          # Project assets & media
+│   ├── lib/
+│   │   └── utils.js     # cn() class merge helper (clsx + tailwind-merge)
 │   ├── App.jsx          # Main application dashboard component
 │   ├── index.css        # Tailwind CSS v4 import directive
 │   └── main.jsx         # React application entry point
@@ -127,7 +132,7 @@ Your app will be live at: **[http://localhost:5173](http://localhost:5173)**
 
 | Script | Command | Description |
 | :--- | :--- | :--- |
-| `dev` | `npm run dev` | Starts the Vite development server with HMR |
+| `dev` | `npm run dev` | Starts the Vite development server with HMR and opens browser |
 | `build` | `npm run build` | Compiles and optimizes assets for production into `dist/` |
 | `preview` | `npm run preview` | Locally previews the production build |
 | `lint` | `npm run lint` | Runs ESLint checks across the codebase |

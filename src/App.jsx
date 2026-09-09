@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { cn } from './lib/utils';
 import {
   Zap,
   Code2,
@@ -54,7 +55,7 @@ export default function App() {
   const stack = [
     {
       icon: <Zap className="w-5 h-5 text-amber-500" />,
-      title: "Vite 6+",
+      title: "Vite 8+",
       desc: "Sub-millisecond HMR with instant cold start engine."
     },
     {
@@ -75,8 +76,14 @@ export default function App() {
   ];
 
   return (
-    <div className={`min-h-screen transition-colors duration-300 relative overflow-hidden font-sans ${isDark ? 'bg-neutral-950 text-neutral-100 selection:bg-cyan-500 selection:text-black' : 'bg-slate-50 text-slate-900 selection:bg-sky-500 selection:text-white'
-      }`}>
+    <div
+      className={cn(
+        'min-h-screen transition-colors duration-300 relative overflow-hidden font-sans',
+        isDark
+          ? 'bg-neutral-950 text-neutral-100 selection:bg-cyan-500 selection:text-black'
+          : 'bg-slate-50 text-slate-900 selection:bg-sky-500 selection:text-white'
+      )}
+    >
 
       {/* Background Gradients & Grid Pattern */}
       {isDark ? (
