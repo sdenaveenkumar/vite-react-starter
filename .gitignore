@@ -12,6 +12,16 @@ dist
 dist-ssr
 *.local
 
+# Lockfiles (Allows fresh resolution of latest packages on scaffold)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+bun.lock
+
+# CLI tool directory (prevent scaffolded apps from getting the CLI source)
+create-react/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
