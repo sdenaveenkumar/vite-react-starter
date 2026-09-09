@@ -1,21 +1,47 @@
-# ⚡ Vite React Starter
+<div align="center">
 
-A modern, high-performance starter template powered by **React 19**, **Vite 8**, and **Tailwind CSS v4**. Includes built-in dark/light mode toggling, Lucide icons, ESLint 10 Flat Config, pre-configured `cn()` class merge utility, and VS Code settings.
+# ⚡ sdenaveenkumar React Starter
+
+### The next-generation starter template and scaffolding tool for modern **React 19** and **Tailwind CSS v4** applications (JavaScript & TypeScript).
+
+[![npm version](https://img.shields.io/npm/v/@sdenaveenkumar/create-react.svg?style=for-the-badge&color=0284c7&labelColor=0f172a)](https://www.npmjs.com/package/@sdenaveenkumar/create-react)
+[![npm downloads](https://img.shields.io/npm/dt/@sdenaveenkumar/create-react.svg?style=for-the-badge&color=10b981&labelColor=0f172a)](https://www.npmjs.com/package/@sdenaveenkumar/create-react)
+[![license](https://img.shields.io/npm/l/@sdenaveenkumar/create-react.svg?style=for-the-badge&color=6366f1&labelColor=0f172a)](https://github.com/sdenaveenkumar/vite-react-starter/blob/main/LICENSE)
+[![node version](https://img.shields.io/node/v/@sdenaveenkumar/create-react.svg?style=for-the-badge&color=f59e0b&labelColor=0f172a)](https://nodejs.org)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge&labelColor=0f172a)](https://github.com/sdenaveenkumar/vite-react-starter/pulls)
+
+<br />
+
+<p align="center">
+  <a href="#-quick-start"><b>Quick Start</b></a> •
+  <a href="#-typescript-support"><b>TypeScript</b></a> •
+  <a href="#-key-features"><b>Key Features</b></a> •
+  <a href="#-tech-stack"><b>Tech Stack</b></a> •
+  <a href="#-project-structure"><b>Structure</b></a> •
+  <a href="#-deploying-to-production"><b>Deploying</b></a> •
+  <a href="#-license"><b>License</b></a>
+</p>
+
+</div>
 
 ---
 
-## 🚀 Quick Start (Scaffold in Seconds)
+## ⚡ Quick Start (Scaffold in Seconds)
 
-You can create a new project instantly. Choose your preferred package manager:
+You can create, install dependencies, and launch your dev server in **one single command**:
 
 <details open>
 <summary><b>📦 npm (Recommended)</b></summary>
 
 ```bash
+# Standard JavaScript (Default)
 npm create @sdenaveenkumar/react my-app
+
+# TypeScript Variant (.tsx + tsconfig.json)
+npm create @sdenaveenkumar/react my-app --ts
 ```
 
-*Or interactive prompt mode:*
+*Interactive wizard (prompts for project name):*
 ```bash
 npm create @sdenaveenkumar/react
 ```
@@ -26,7 +52,50 @@ npm create @sdenaveenkumar/react
 <summary><b>⚡ npx</b></summary>
 
 ```bash
+# JavaScript
 npx @sdenaveenkumar/create-react my-app
+
+# TypeScript
+npx @sdenaveenkumar/create-react my-app --ts
+```
+
+</details>
+
+<details>
+<summary><b>🍍 pnpm</b></summary>
+
+```bash
+# JavaScript
+pnpm create @sdenaveenkumar/react my-app
+
+# TypeScript
+pnpm create @sdenaveenkumar/react my-app --ts
+```
+
+</details>
+
+<details>
+<summary><b>🧶 yarn</b></summary>
+
+```bash
+# JavaScript
+yarn create @sdenaveenkumar/react my-app
+
+# TypeScript
+yarn create @sdenaveenkumar/react my-app --ts
+```
+
+</details>
+
+<details>
+<summary><b>🥟 bun</b></summary>
+
+```bash
+# JavaScript
+bun create @sdenaveenkumar/react my-app
+
+# TypeScript
+bun create @sdenaveenkumar/react my-app --ts
 ```
 
 </details>
@@ -40,105 +109,171 @@ npx degit sdenaveenkumar/vite-react-starter my-app
 
 </details>
 
-<details>
-<summary><b>🧶 yarn</b></summary>
-
-```bash
-yarn create @sdenaveenkumar/react my-app
-```
-
-</details>
-
-<details>
-<summary><b>🍍 pnpm</b></summary>
-
-```bash
-pnpm create @sdenaveenkumar/react my-app
-```
-
-</details>
-
-<details>
-<summary><b>🥟 bun</b></summary>
-
-```bash
-bun create @sdenaveenkumar/react my-app
-```
-
-</details>
-
 ---
 
-### Next Steps
-
-```bash
-cd my-app
-npm run dev
-```
-
-Your app will open automatically at: **[http://localhost:5173](http://localhost:5173)**
-
----
-
-## ✨ Features
-
-- ⚡ **Vite 8** – Lightning-fast Hot Module Replacement (HMR) and instant cold starts with browser auto-opening.
-- ⚛️ **React 19** – Powered by the latest React features and compiler optimizations.
-- 🎨 **Tailwind CSS v4** – Zero-configuration styling using `@tailwindcss/vite`.
-- 🧩 **`cn()` Utility Helper** – Pre-configured `clsx` and `tailwind-merge` helper for clean dynamic classes.
-- 🌓 **Dark / Light Theme** – Smooth animated theme switching with custom gradient backgrounds and grid patterns.
-- 💬 **Live Quote Widget** – Dynamic quote generator fetched asynchronously from DummyJSON with fallback handling.
-- 💎 **Lucide Icons** – Clean, modern, customizable SVG icon set.
-- 🔍 **ESLint 10** – Modern Flat Config with React Hooks & React Refresh rules.
-- 🛠️ **VS Code Ready** – Pre-configured extension recommendations and format-on-save settings.
-
----
-
-## 🛠️ Tech Stack
-
-| Technology | Version | Description |
-| :--- | :--- | :--- |
-| [React](https://react.dev/) | `^19.2.8` | Core UI library |
-| [Vite](https://vite.dev/) | `^8.2.0` | Next-generation frontend build tool |
-| [Tailwind CSS](https://tailwindcss.com/) | `^4.0.0` | Utility-first CSS framework |
-| [Lucide React](https://lucide.dev/) | `^0.475.0` | Icon set for modern web apps |
-| [ESLint](https://eslint.org/) | `^10.0.0` | Standard JavaScript & React linter (Flat Config) |
-| [clsx](https://github.com/lukeed/clsx) & [tailwind-merge](https://github.com/dcastil/tailwind-merge) | `^2.1.1` / `^3.0.1` | Class name combination utilities |
-
----
-
-## 📁 Project Structure
+## 🖥️ Live Terminal Scaffolding Demo
 
 ```text
-├── .vscode/             # VS Code extension recommendations & editor settings
-├── public/              # Static assets (favicon.svg)
+  ┌────────────────────────────────────────────────────────────┐
+  │                                                            │
+  │   ⚡ SDENAVEENKUMAR REACT STARTER v1.9.0                    │
+  │   React 19 • Vite 8 • Tailwind CSS v4 • ESLint             │
+  │                                                            │
+  └────────────────────────────────────────────────────────────┘
+
+  ┌  Scaffolding my-app [JavaScript]
+  │
+  │  ✔ Downloaded latest template repository
+  │  ✔ Configured JavaScript (.jsx, cn utility)
+  │  ✔ Initialized clean Git repository
+  │  [████████████████░░░░]  80%  Installing dependencies with npm
+  │  ✔ Installing dependencies with npm (100%)
+  │
+  └  ✔ Project created at /Users/you/my-app
+
+  🚀 Launching development server on http://localhost:5173 ...
+
+  VITE v8.2.2  ready in 118 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+```
+
+---
+
+## 🟦 TypeScript Support
+
+To scaffold with complete TypeScript type safety:
+
+```bash
+npm create @sdenaveenkumar/react my-app --ts
+```
+
+### What gets configured with `--ts`:
+- ✅ `tsconfig.json`, `tsconfig.app.json`, and `tsconfig.node.json` (Vite 8 strict mode configuration)
+- ✅ `src/vite-env.d.ts` (Vite client types)
+- ✅ `src/main.tsx` & `src/App.tsx` (fully typed React 19 components with interfaces)
+- ✅ `src/lib/utils.ts` (strongly-typed `cn()` helper with `ClassValue` types)
+- ✅ Pre-configured `typescript` and `@types/node`
+
+---
+
+## ✨ Key Features
+
+| Feature | Highlight |
+| :--- | :--- |
+| 🚀 **Zero-Friction Bootstrap** | Automatically downloads, initializes Git, installs dependencies, and boots the local dev server. |
+| 🌐 **Auto-Open Browser** | Pre-configured `server: { open: true }` launches `http://localhost:5173` in your default browser instantly. |
+| 🟦 **TypeScript & JavaScript** | Seamless 1-flag switching (`--ts` / `--js`) with strict type checking. |
+| ⚛️ **React 19 Ready** | Built on React 19 with latest compiler optimizations and clean Action paradigms. |
+| ⚡ **Vite 8 Powered** | Instant server starts, sub-millisecond Hot Module Replacement (HMR), and optimized rollup builds. |
+| 🎨 **Tailwind CSS v4** | Powered by the official `@tailwindcss/vite` plugin. Zero config file overhead. |
+| 🧩 **`cn()` Utility Helper** | Pre-configured `clsx` + `tailwind-merge` helper for clean dynamic classes (shadcn/ui ready). |
+| 🌓 **Day & Night Themes** | Pre-built responsive theme system with smooth background gradients and grid patterns. |
+| 🔍 **ESLint 10 Flat Config** | Modern `eslint.config.js` supporting both JS/JSX and TS/TSX. |
+| 🛠️ **VS Code Ready** | Includes recommended extensions and format-on-save settings. |
+
+---
+
+## 🛠️ The Modern Tech Stack
+
+```text
+React 19.x ──────> Declarative UI Component Runtime
+Vite 8.x ────────> Next-Generation Build Engine & Dev Server
+Tailwind 4.x ────> High-Performance Utility-First CSS Engine
+ESLint 10.x ─────> Standard Code Quality & Hook Rule Linter
+Lucide Icons ────> Feather-Light Modern SVG Vector System
+clsx & twMerge ──> Class Name Merging Utilities
+```
+
+---
+
+## 📁 Scaffolded Project Structure
+
+```text
+my-app/
+├── .vscode/                # VS Code extension recommendations & editor settings
+├── public/                 # Static public assets (favicon.svg)
 ├── src/
-│   ├── assets/          # Project assets & media
+│   ├── assets/             # Project assets
 │   ├── lib/
-│   │   └── utils.js     # cn() class merge helper (clsx + tailwind-merge)
-│   ├── App.jsx          # Main application dashboard component
-│   ├── index.css        # Tailwind CSS v4 import directive
-│   └── main.jsx         # React application entry point
-├── eslint.config.js     # ESLint Flat Configuration
-├── index.html           # HTML entry point
-├── package.json         # Scripts and project dependencies
-├── vite.config.js       # Vite configuration with React & Tailwind plugins
-└── README.md            # Project documentation
+│   │   └── utils.js        # cn() class merge helper (or utils.ts in TypeScript)
+│   ├── App.jsx             # Main interactive dashboard component (or App.tsx)
+│   ├── index.css           # Tailwind CSS v4 import directive
+│   └── main.jsx            # React 19 root DOM mount point (or main.tsx)
+├── eslint.config.js        # Modern ESLint Flat Config (JS/TS + React Hooks)
+├── .gitignore              # Production git ignore configuration
+├── index.html              # HTML5 entry document
+├── package.json            # Scripts, metadata, and dependencies
+└── vite.config.js          # Vite configuration with React & Tailwind plugins
 ```
 
 ---
 
 ## 📜 Available Scripts
 
-| Script | Command | Description |
-| :--- | :--- | :--- |
-| `dev` | `npm run dev` | Starts the Vite development server with HMR and opens browser |
-| `build` | `npm run build` | Compiles and optimizes assets for production into `dist/` |
-| `preview` | `npm run preview` | Locally previews the production build |
-| `lint` | `npm run lint` | Runs ESLint checks across the codebase |
+Inside your project folder, you can run:
+
+<details open>
+<summary><b>🛠️ Available Commands (Click to toggle)</b></summary>
+
+| Command | Action |
+| :--- | :--- |
+| `npm run dev` | Starts the Vite local development server at `http://localhost:5173` |
+| `npm run build` | Compiles optimized, minified production bundle into `dist/` |
+| `npm run preview` | Spins up a local static server to preview the `dist/` build |
+| `npm run lint` | Runs ESLint checks across all project files |
+
+</details>
+
+---
+
+## 🚀 Deploying to Production
+
+<details>
+<summary><b>▲ Deploy to Vercel</b></summary>
+
+1. Push your repository to GitHub.
+2. Import your repository into [Vercel](https://vercel.com).
+3. Vercel will automatically detect **Vite** with Build Command `npm run build` and Output Directory `dist`.
+4. Click **Deploy**.
+
+</details>
+
+<details>
+<summary><b>🌐 Deploy to Netlify</b></summary>
+
+1. Connect your repository on [Netlify](https://netlify.com).
+2. Set **Build command**: `npm run build`
+3. Set **Publish directory**: `dist`
+4. Click **Deploy Site**.
+
+</details>
+
+<details>
+<summary><b>🐙 Deploy to GitHub Pages</b></summary>
+
+Set `base: '/<REPO_NAME>/'` in `vite.config.js` and deploy using GitHub Actions with `actions/upload-pages-artifact`.
+
+</details>
+
+---
+
+## 🤝 Contributing
+
+Contributions, feature requests, and issue reports are warmly welcome!
+
+- **GitHub Repository**: [https://github.com/sdenaveenkumar/vite-react-starter](https://github.com/sdenaveenkumar/vite-react-starter)
+- **Report an Issue**: [Issues Tracker](https://github.com/sdenaveenkumar/vite-react-starter/issues)
 
 ---
 
 ## 📄 License
 
-This project is open-source and available under the [MIT License](LICENSE).
+Distributed under the **MIT License**. See [`LICENSE`](https://github.com/sdenaveenkumar/vite-react-starter/blob/main/LICENSE) for details.
+
+<br />
+
+<div align="center">
+  <sub>Maintained with ❤️ by <a href="https://github.com/sdenaveenkumar"><b>Naveen Kumar</b></a></sub>
+</div>
