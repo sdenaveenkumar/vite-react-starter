@@ -109,9 +109,9 @@ export default function App() {
               <Command className="w-5 h-5" />
             </div>
             <div>
-              <span className="text-sm font-semibold tracking-tight block">Starter CLI</span>
+              <span className="text-sm font-semibold tracking-tight block">sdenaveenkumar Starter</span>
               <span className={`text-[11px] font-mono block -mt-0.5 ${isDark ? 'text-neutral-500' : 'text-slate-400'}`}>
-                template: active
+                React 19 • Tailwind v4
               </span>
             </div>
           </div>
