@@ -150,9 +150,14 @@ npx degit sdenaveenkumar/vite-react-starter my-app
 
 To scaffold with complete TypeScript type safety:
 
+<details open>
+<summary><b>🟦 TypeScript Scaffold Command (Click to toggle)</b></summary>
+
 ```bash
 npm create @sdenaveenkumar/react my-app --ts
 ```
+
+</details>
 
 ### What gets configured with `--ts`:
 - ✅ `tsconfig.json`, `tsconfig.app.json`, and `tsconfig.node.json` (Vite 8 strict mode configuration)
@@ -182,6 +187,9 @@ npm create @sdenaveenkumar/react my-app --ts
 
 ## 🛠️ The Modern Tech Stack
 
+<details open>
+<summary><b>🛠️ Full Tech Stack Overview (Click to toggle)</b></summary>
+
 ```text
 React 19.x ──────> Declarative UI Component Runtime
 Vite 8.x ────────> Next-Generation Build Engine & Dev Server
@@ -191,9 +199,14 @@ Lucide Icons ────> Feather-Light Modern SVG Vector System
 clsx & twMerge ──> Class Name Merging Utilities
 ```
 
+</details>
+
 ---
 
 ## 📁 Scaffolded Project Structure
+
+<details open>
+<summary><b>📁 Project Directory Structure (Click to toggle)</b></summary>
 
 ```text
 my-app/
@@ -212,6 +225,8 @@ my-app/
 ├── package.json            # Scripts, metadata, and dependencies
 └── vite.config.js          # Vite configuration with React & Tailwind plugins
 ```
+
+</details>
 
 ---
 
