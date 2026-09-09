@@ -113,6 +113,9 @@ npx degit sdenaveenkumar/vite-react-starter my-app
 
 ## 🖥️ Live Terminal Scaffolding Demo
 
+<details open>
+<summary><b>🖥️ Terminal Output Preview (Click to toggle)</b></summary>
+
 ```text
   ┌────────────────────────────────────────────────────────────┐
   │                                                            │
@@ -138,6 +141,8 @@ npx degit sdenaveenkumar/vite-react-starter my-app
   ➜  Local:   http://localhost:5173/
   ➜  Network: use --host to expose
 ```
+
+</details>
 
 ---
 
